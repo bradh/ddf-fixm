@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="target/generated-sources/xmlbeans" including="**/*.java"/>
+  <classpathentry kind="src" path="target/generated-sources/xjc"/>
+  <classpathentry kind="src" path="target/generated-classes/xmlbeans" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xmlbeans/xmlbeans/2.5.0/xmlbeans-2.5.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+</classpath>

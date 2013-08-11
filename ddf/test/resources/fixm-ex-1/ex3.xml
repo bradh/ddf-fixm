@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+(FPL-CCC-IG 
+-BE36/L-SHGZ/C 
+-ZZZZ0300 
+-N0150A080 DCT MSO RUNNA RIC BK 
+-YSBK0115 
+-NAV/GPSRNAV DEP/MSO360011 DOF/130202 REG/VHCCC PER/A RMK/DEP THE 
+JUNCTION)
+-->
+<FlightMessage xmlns:ns2="http://www.fixm.aero/base/1.0" xmlns="http://www.fixm.aero/msg/1.0" xmlns:ns3="http://www.fixm.aero/fx/1.0">
+    <metadata>
+        <gumi>urn:fixm.aero:asa:ods:20130203T011412:000001</gumi>
+    </metadata>
+    <flight>
+        <ns3:gufi>au.asa.20130203T011412.000001</ns3:gufi>
+        <ns3:activeFlightPlan ns3:flightPlanIdentifier="1">
+            <ns3:aircraftIdentity>
+                <ns3:acid>CCC</ns3:acid>
+            </ns3:aircraftIdentity>
+            <ns3:aircraftDescription>
+                <ns3:capabilities ns3:standard="STANDARD">
+                    <ns3:communication>
+                        <ns3:communicationCodes>H</ns3:communicationCodes>
+                    </ns3:communication>
+                    <ns3:surveillance>
+                        <ns3:surveillanceCodes>C</ns3:surveillanceCodes>
+                    </ns3:surveillance>
+                    <ns3:navigation>
+                        <ns3:navigationCodes>G</ns3:navigationCodes>
+                        <ns3:otherNavigationCapabilities>GPSRNAV</ns3:otherNavigationCapabilities>
+                    </ns3:navigation>
+                </ns3:capabilities>
+                <ns3:registration>VHCCC</ns3:registration>
+                <ns3:aircraftCategory>
+                    <ns3:model>BE36</ns3:model>
+                </ns3:aircraftCategory>
+                <ns3:performance>
+                    <ns3:performance>A</ns3:performance>
+                    <ns3:wakeTurbulence>L</ns3:wakeTurbulence>
+                </ns3:performance>
+            </ns3:aircraftDescription>
+            <ns3:formationAircraftCount>1</ns3:formationAircraftCount>
+            <ns3:filing>
+                <ns3:accepted>ACCEPTED</ns3:accepted>
+                <ns3:filingTime>2013-02-03T01:14:12.508Z</ns3:filingTime>
+            </ns3:filing>
+            <ns3:departure>
+                <ns3:estimatedDepartureTime>2013-02-02T03:00:00.000Z</ns3:estimatedDepartureTime>
+                <ns3:departureAerodrome>
+                    <ns3:unlisted>
+                        <ns3:name></ns3:name>
+                        <ns3:point>
+                            <ns2:relative>
+                                <ns2:origin ns2:name="MSO"/>
+                                <ns2:bearing>360.0</ns2:bearing>
+                                <ns2:distance ns2:uom="NM">11.0</ns2:distance>
+                            </ns2:relative>
+                        </ns3:point>
+                    </ns3:unlisted>
+                </ns3:departureAerodrome>
+            </ns3:departure>
+            <ns3:arrival>
+                <ns3:arrivalAerodrome>
+                    <ns3:code>YSBK</ns3:code>
+                </ns3:arrivalAerodrome>
+            </ns3:arrival>
+            <ns3:enRoute>
+                <ns3:enRouteTime>P0Y0M0DT1H15M0.000S</ns3:enRouteTime>
+            </ns3:enRoute>
+            <ns3:request>
+                <ns3:altitude ns2:uom="FT" ns2:ref="MSL">8000</ns3:altitude>
+                <ns3:airspeed ns2:uom="KNOTS">150.0</ns3:airspeed>
+                <ns3:flightRules>IFR</ns3:flightRules>
+            </ns3:request>
+            <ns3:route>
+                <ns3:text>DCT MSO RUNNA RIC BK</ns3:text>
+                <ns3:segment xsi:type="ns3:BasicSegmentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <ns3:airway>DCT</ns3:airway>
+                    <ns3:point>
+                        <ns2:fix ns2:name="MSO"/>
+                    </ns3:point>
+                </ns3:segment>
+                <ns3:segment xsi:type="ns3:BasicSegmentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <ns3:airway xsi:nil="true"/>
+                    <ns3:point>
+                        <ns2:fix ns2:name="RUNNA"/>
+                    </ns3:point>
+                </ns3:segment>
+                <ns3:segment xsi:type="ns3:BasicSegmentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <ns3:airway xsi:nil="true"/>
+                    <ns3:point>
+                        <ns2:fix ns2:name="RIC"/>
+                    </ns3:point>
+                </ns3:segment>
+                <ns3:segment xsi:type="ns3:BasicSegmentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <ns3:airway xsi:nil="true"/>
+                    <ns3:point>
+                        <ns2:fix ns2:name="BK"/>
+                    </ns3:point>
+                </ns3:segment>
+            </ns3:route>
+            <ns3:interFacilityRemarks>DEP THE JUNCTION</ns3:interFacilityRemarks>
+            <ns3:flightType>GENERAL</ns3:flightType>
+        </ns3:activeFlightPlan>
+    </flight>
+</FlightMessage>
